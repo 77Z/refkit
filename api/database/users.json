@@ -1,0 +1,32 @@
+{
+    "count": 1,
+    "users": [
+        {
+            "userIdCount": 1,
+            "userId": 486954,
+            "name": "WOWZA",
+            "email": "vincesucks@coding.net"
+        },
+        {
+            "userIdCount": 100,
+            "userId": 0,
+            "name": "vince",
+            "email": "vince@77zsite.tk",
+            "password": -1251263993
+        },
+        {
+            "userIdCount": 100,
+            "userId": 0,
+            "name": "vince",
+            "email": "vince@77zsite.tk",
+            "password": -1251263993
+        },
+        {
+            "userIdCount": 100,
+            "userId": 0,
+            "name": "joe",
+            "email": "superawesomejoe@joe.org",
+            "password": -609705554
+        }
+    ]
+}
