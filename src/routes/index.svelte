@@ -1,24 +1,16 @@
 <script>
 	import Header from '../shared/globalHeader.svelte';
 	import Content from '../shared/views/SquishedContent.svelte';
-	import Button from '../shared/components/Button.svelte';
 
 	export const prerender = true;
 	// Tell Svelte to prerender this page
 	// No dynamic content allowed
-
-	let buttonContent = 'Button';
-	function wow() {
-		buttonContent = 'Clicked Button';
-	}
 </script>
 
 <Header />
 
 <Content>
 	<h1>REF. Cybernetically enhanced socialness-ness</h1>
-
-	<Button raiseOnHover={true} on:click={wow}>{buttonContent}</Button>
 
 	<svg
 		xmlns="http://www.w3.org/2000/svg"

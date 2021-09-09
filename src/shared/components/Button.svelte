@@ -1,26 +1,18 @@
+<button on:click={action}>
+    <slot />
+</button>
+
 <script>
-	export let raiseOnHover = false;
+    export let action = () => alert("default");
 </script>
 
-<button on:click|self><slot /></button>
-
-{#if raiseOnHover}
-	<style>
-		button:hover {
-			transform: translateY(-5px);
-		}
-	</style>
-{/if}
-
 <style>
-	button {
-		font-size: 1rem;
-		padding: 10px 25px;
-		box-sizing: border-box;
-		border-radius: 5px;
-		cursor: pointer;
-		border: none;
-		background: #ff4500;
-		color: #fff;
-	}
+    button {
+        padding: 5px 20px;
+        background: #ff4500;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 </style>
