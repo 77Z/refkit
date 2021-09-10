@@ -1,8 +1,13 @@
 <script>
 	export let placeholder = 'Text...';
+	export let password = false;
 </script>
 
-<input type="text" {placeholder} />
+{#if password}
+	<input type="password" {placeholder} />
+{:else}
+	<input type="text" {placeholder} />
+{/if}
 
 <style>
 	input {
@@ -11,5 +16,9 @@
 		border: none;
 		outline: none;
 		caret-color: #ff4500;
+		font-size: 17px;
+		box-sizing: border-box;
+		padding: 5px 10px;
+		border-radius: 5px;
 	}
 </style>
